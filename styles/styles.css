@@ -1,0 +1,86 @@
+:root {
+    --cinza-claro: #d9d9d9;
+    --cinza-escuro: #474d52;
+    --vermelho-escuro: #9d1515;
+    --prata-azulado: #52727c;
+}
+
+@font-face {
+    font-family: 'BondoniFLF';
+    src: url('../src/fonts/BodoniFLF/BodoniFLF-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BondoniFLF';
+    src: url('../src/fonts/BodoniFLF/BodoniFLF-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BondoniFLF';
+    src: url('../src/fonts/BodoniFLF/BodoniFLF-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BondoniFLF';
+    src: url('../src/fonts/BodoniFLF/BodoniFLF-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../src/fonts/NunitoSans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../src/fonts/NunitoSans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'BodoniFLF', serif;
+    color: var(--prata-azulado);
+}
+
+p, h3, h4, h5 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#navBar {
+    background-color: var(--cinza-claro);
+    display: flex;
+    align-items: center;
+}
+
+.leftSide {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 1vh;
+    margin-left: 2vh;
+    margin-right: auto;
+}
+
+.rightSide {
+    margin-right: 2vh;
+    margin-left: auto;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
