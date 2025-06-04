@@ -1,0 +1,20 @@
+.btn {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--vermelho-escuro);
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--vermelho-escuro);
+    color: var(--cinza-claro);
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: var(--cinza-escuro);
+}
+

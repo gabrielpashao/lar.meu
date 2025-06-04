@@ -1,0 +1,6 @@
+.right {
+    display: flex;
+    margin-right: 2vh;
+    margin-left: auto;
+    gap: 1vh;
+}
