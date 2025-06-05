@@ -10,7 +10,7 @@
 
 .btn:hover {
     background-color: var(--vermelho-escuro);
-    color: var(--cinza-claro);
+    color: var(--branco);
     cursor: pointer;
 }
 

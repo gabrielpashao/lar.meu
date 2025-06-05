@@ -10,9 +10,6 @@ logo.src = "/src/img/LogoColor.png";
 logo.alt = "LAR.MEU";
 logo.className = "logoNav";
 
-const logoText = document.createElement("h1"); // Site name 
-logoText.textContent = "LAR.MEU";
-
 // Creating navbar buttons
 const btnAbout = createButton("Sobre nós", () => {
     window.location.href = "sobre.html";
@@ -35,7 +32,6 @@ export function createNavbar() {
     nav.className = "nav";
 
     left.appendChild(logo);
-    left.appendChild(logoText);
 
     right.appendChild(btnAbout);
     right.appendChild(btnServices);

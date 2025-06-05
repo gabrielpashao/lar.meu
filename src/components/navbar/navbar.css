@@ -1,7 +1,10 @@
 .nav {
-    background-color: var(--cinza-claro);
+    box-shadow: 0px 0px 5px var(--preto);
+    background-color: var(--branco);
     display: flex;
     align-items: center;
+    position: relative;
+    padding: 2vh;
 }
 
 .logoNav {
