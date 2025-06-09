@@ -1,0 +1,24 @@
+.valores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image:
+        linear-gradient(to top, color-mix(in srgb, var(--prata-azulado) 100%, transparent) 0%, color-mix(in srgb, var(--cinza-claro) 100%, transparent) 90%);
+    padding-top: 8vh;
+}
+
+.values {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.values img {
+    width: 50%;
+}
+
+ul {
+    text-align: left;
+}

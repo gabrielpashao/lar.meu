@@ -1,0 +1,20 @@
+.servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8vh;
+}
+
+.titleText { 
+    font-family: "Nunito Sans", sans-serif;
+    padding-bottom: 8vh;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}

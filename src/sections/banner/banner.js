@@ -1,8 +1,8 @@
 import { importStyle } from "../../../utils/import-css.js";
-import { leftSide } from "../containers/leftSide.js";
-import { containerText } from "../containers/containerText.js";
+import { leftSide } from "../../components/containers/leftSide.js";
+import { containerText } from "../../components/containers/containerText.js";
 
-importStyle("/src/components/banner/banner.css");
+importStyle("/src/sections/banner/banner.css");
 
 const bannerImg = document.createElement("div")
 bannerImg.className = "bannerImg";
