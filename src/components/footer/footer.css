@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerFooter {
+    display: flex;
+    padding: 2vh;
+}
+
+.logoFooter {
+    width: 10%;
+}
+
+.containerTextLogo {
+    display: grid;
+    width: 30%;
+    font-size: 70%;
+}
+
+.containerTextAddress {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.addressText {
+    text-align: right;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0 2vh 0;
+    background-color: var(--cinza-claro);
+}

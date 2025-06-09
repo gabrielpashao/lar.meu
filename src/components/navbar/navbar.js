@@ -12,15 +12,15 @@ logo.className = "logoNav";
 
 // Creating navbar buttons
 const btnAbout = createButton("Sobre nós", () => {
-    window.location.href = "sobre.html";
+    document.getElementById("sobre").scrollIntoView({ behavior: "smooth" });
 });
 
 const btnServices = createButton("Nossos serviços", () => {
-    window.location.href = "servicos.html";
+    document.getElementById("servicos").scrollIntoView({ behavior: "smooth" });
 });
 
 const btnContact = createButton("Contato", () => {
-    window.location.href = "contato.html";
+    document.getElementById("contato").scrollIntoView({ behavior: "smooth" });
 });
 
 const left = leftSide(); // Left division
@@ -33,8 +33,8 @@ export function createNavbar() {
 
     left.appendChild(logo);
 
-    right.appendChild(btnAbout);
     right.appendChild(btnServices);
+    right.appendChild(btnAbout);
     right.appendChild(btnContact);
 
     nav.appendChild(left);

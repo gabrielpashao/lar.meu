@@ -1,0 +1,15 @@
+.contato { 
+    display: flex;
+    justify-content: center;
+    background-color: var(--prata-azulado);
+    padding: 8vh 0 8vh 0;
+    gap: 20vh;
+    /* flex-direction: column; */
+}
+
+.formSection {
+    background-color: var(--cinza-claro);
+    width: 30%;
+    padding: 2vh;
+    border-radius: 10px;
+}

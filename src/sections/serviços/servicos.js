@@ -17,6 +17,7 @@ const card3 = createCard("/src/img/servicosManutencao.jpg", "Serviços de manute
 export function createServiceSection() {
     const servicos = document.createElement("section");
     servicos.className = "servicos";
+    servicos.id = "servicos"
 
     cardSection.appendChild(card1);
     cardSection.appendChild(card2);

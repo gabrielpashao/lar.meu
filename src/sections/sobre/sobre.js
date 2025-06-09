@@ -29,13 +29,15 @@ content.className = "content";
 export function createAboutSection() {
     const sobre = document.createElement("section");
     sobre.className = "sobre";
+    sobre.id = "sobre";
     
     description.appendChild(descriptionText);
-    description.appendChild(imgAbout);
+    // description.appendChild(imgAbout);
 
+    content.appendChild(title);
     content.appendChild(description);
 
-    sobre.appendChild(title);
+    // sobre.appendChild(title);
     sobre.appendChild(content);
 
     return sobre;

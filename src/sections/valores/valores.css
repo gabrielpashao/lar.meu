@@ -5,6 +5,7 @@
     background-image:
         linear-gradient(to top, color-mix(in srgb, var(--prata-azulado) 100%, transparent) 0%, color-mix(in srgb, var(--cinza-claro) 100%, transparent) 90%);
     padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
 .values {
@@ -17,6 +18,13 @@
 
 .values img {
     width: 50%;
+}
+
+.titleTextValues { 
+    font-family: "Nunito Sans", sans-serif;
+    font-size: xx-large;
+    padding-bottom: 8vh;
+    justify-content: center;
 }
 
 ul {

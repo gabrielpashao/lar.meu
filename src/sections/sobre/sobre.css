@@ -5,15 +5,28 @@
     align-items: center;
     text-align: center;
     background-image:
-        linear-gradient(to bottom, color-mix(in srgb, var(--branco) 100%, transparent) 0%, color-mix(in srgb, var(--cinza-claro) 100%, transparent) 90%);
-    padding: 8vh;
+        linear-gradient(to left, color-mix(in srgb, var(--branco) 0%, transparent) 0%, color-mix(in srgb, var(--cinza-claro) 80%, transparent) 50%),
+        url(/src/img/sobre.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20vh 8vh 20vh 8vh;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    float: left;
+}
+
+.titleText { 
+    display: flex;
+}
+
+.description {
+    width: 50%;
+    /* background-color: var(--cinza-claro); */
 }
 
 .descriptionText {
@@ -34,10 +47,10 @@
     gap: 2vh;
 }
 
-.imgAbout {
+/* .imgAbout {
     width: 40%;
     height: auto;
     display: block;
     border-radius: 10px;
     box-shadow: 0 0 10px color-mix(in srgb, var(--preto) 40%, transparent);
-}
+} */

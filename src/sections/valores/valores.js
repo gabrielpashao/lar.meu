@@ -5,7 +5,7 @@ importStyle("/src/sections/valores/valores.css");
 
 const title = document.createElement("h1");
 title.textContent = "Valores";
-title.className = "titleText";
+title.className = "titleTextValues";
 
 const proposito = `<p>Entregar serviços na área da construção civil, que visam a estabilidade, a qualidade nos processos e a satisfação dos proprietários;</p>`;
 
@@ -28,7 +28,7 @@ const values = document.createElement("div");
 values.className = "values";
 
 export function createValuesSection() {
-    const valores = document.createElement("div");
+    const valores = document.createElement("section");
     valores.className = "valores";
 
     values.appendChild(card4);

@@ -1,0 +1,16 @@
+.messageInput {
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 1vh;
+}
+
+.inputMessage {
+    height: 100px;
+}
+
+textarea {
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    border-style: solid;
+}

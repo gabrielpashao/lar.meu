@@ -64,3 +64,12 @@ p, h3, h4, h5 {
     color: var(--cinza-escuro);
     margin: 0;
 }
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+}
