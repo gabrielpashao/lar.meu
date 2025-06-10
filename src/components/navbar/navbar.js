@@ -30,6 +30,7 @@ const right = rightSide(); // Right division
 export function createNavbar() {
     const nav = document.createElement("nav");
     nav.className = "nav";
+    nav.id = "nav";
 
     left.appendChild(logo);
 

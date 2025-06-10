@@ -5,6 +5,7 @@ import { createServiceSection } from "./src/sections/serviços/servicos.js";
 import { createAboutSection } from "./src/sections/sobre/sobre.js";
 import { createValuesSection } from "./src/sections/valores/valores.js";
 import { createContactSection } from "./src/sections/contato/contato.js";
+import { topBtn } from "./src/components/topBtn/topBtn.js";
 
 const header = document.createElement("header");
 header.appendChild(createNavbar());
@@ -16,6 +17,7 @@ main.appendChild(createServiceSection());
 main.appendChild(createAboutSection());
 main.appendChild(createValuesSection());
 main.appendChild(createContactSection());
+main.appendChild(topBtn());
 document.body.appendChild(main);
 
 const footer = document.body.appendChild(createFooter());

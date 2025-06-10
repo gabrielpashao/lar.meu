@@ -1,0 +1,15 @@
+.topSpan {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+    z-index: 1000;
+}
+
+.button {
+    background-color: var(--branco);
+    border: none;
+    padding: 2.5vh;
+    border-radius: 100%;
+    box-shadow: 0 0 2px var(--preto);
+    cursor: pointer;
+}
