@@ -13,4 +13,12 @@ textarea {
     background-color: var(--cinza-claro);
     border-radius: 5px;
     border-style: solid;
+    border-color: var(--cinza-claro);
+    box-shadow: 0px 0px 2px var(--prata-azulado);
+    max-width: 100%;
+    min-height: 3vh;
+}
+
+textarea:hover {
+    box-shadow: 0px 0px 4px var(--preto);
 }
